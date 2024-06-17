@@ -1,0 +1,23 @@
+@import "../../styles/utils.scss";
+
+.download {
+  text-align: center;
+
+  p {
+    margin-bottom: var(--margin-medium);
+
+    @media (max-width: $phone-max) {
+      margin-bottom: 10px;
+    }
+  }
+
+  :global(.btn) {
+    margin-right: var(--margin-medium);
+  }
+
+  @media (max-width: $phone-max) {
+    h2 {
+      margin-bottom: 10px;
+    }
+  }
+}

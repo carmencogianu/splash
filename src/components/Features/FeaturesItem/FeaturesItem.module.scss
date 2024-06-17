@@ -1,0 +1,35 @@
+@import "../../../styles/utils.scss";
+
+.features__item {
+  background-color: $light-blue;
+  border-radius: 10px;
+  padding: var(--margin-medium);
+  align-content: center;
+  justify-content: center;
+  position: relative;
+
+  @media (max-width: $phone-max) {
+    padding: 20px;
+  }
+
+  & > * {
+    @media (max-width: $phone-max) {
+      max-width: 70%;
+      margin: 0 auto;
+    }
+  }
+
+  img {
+    margin-bottom: var(--margin-medium);
+  }
+
+  .new {
+    color: red;
+    height: 16px;
+    width: 27px;
+    font-size: 12px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+}

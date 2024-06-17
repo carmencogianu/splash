@@ -1,0 +1,15 @@
+@import "../../styles/utils.scss";
+
+.parallax {
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: var(--margin-big);
+
+  @media (max-width: $phone-max) {
+    min-height: 415px;
+    background-attachment: scroll;
+  }
+}

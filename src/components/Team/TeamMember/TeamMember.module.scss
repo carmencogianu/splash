@@ -1,0 +1,11 @@
+@import "../../../styles/utils.scss";
+
+.team {
+  &__item {
+    max-width: 270px;
+  }
+  &__image {
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+}

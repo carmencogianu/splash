@@ -1,0 +1,329 @@
+{
+  "header": {
+    "image": {
+      "url": "assets/img/logo.png",
+      "altText": "splash logo"
+    },
+    "navItems": [
+      "<a className={styles.menu__link} href='#'>About</a>",
+      "<a className={styles.menu__link} href='#'>Jobs</a>",
+      "<a className={styles.menu__link} href='#'>Cities</a>",
+      "<a className={styles.menu__link} href='#'>Charging</a>"
+    ],
+    "navBtn": "Ride me"
+  },
+
+  "hero": [
+    {
+      "image": {
+        "url": "assets/img/carousel_1.jpeg",
+        "altText": "splash scooters"
+      },
+      "title": "Welcome to our amazing website",
+      "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+      "image": {
+        "url": "assets/img/carousel_2.jpeg",
+        "altText": "splash scooters"
+      },
+      "title": "Enjoy the most colourful rides with us",
+      "text": "Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor, <br/>sit amet ipsum dolor sit amet ipsum dolor sit amet"
+    },
+    {
+      "image": {
+        "url": "assets/img/carousel_1.jpeg",
+        "altText": "splash scooters"
+      },
+      "title": "Hi!",
+      "text": "Lorem ipsum dolor sit amet."
+    }
+  ],
+
+  "download": {
+    "title": "Bored to stay in traffic?",
+    "text": "Download the app",
+    "buttons": [
+      {
+        "btnText": "Download 1",
+        "color": "btn_secondary"
+      },
+      {
+        "btnText": "Download 2",
+        "color": "btn_secondary"
+      }
+    ]
+  },
+
+  "card1": {
+    "title": "Nice scooters, right?",
+    "text": "Maecenas eget feugiat augue. Nulla faucibus vitae urna sit amet efficitur. Praesent justo mauris, facilisis eu magna et, varius lobortis ex. Nunc ultrices ipsum at tincidunt suscipit. Maecenas id justo at quam faucibus euismod. Proin eu urna blandit, pharetra enim scelerisque, malesuada justo. Sed commodo velit id augue lacinia, quis dignissim urna consectetur. Vestibulum et arcu vitae diam ultricies tempor. Praesent in posuere ante. Aenean dui mi, imperdiet id placerat quis, fringilla et neque. Suspendisse porta justo odio, ut aliquet felis volutpat sit amet. Nunc fermentum vel dui ac sodales. Vivamus consectetur tortor at mauris vulputate finibus.",
+    "class": ""
+  },
+  "card2": {
+    "title": "Still nice, right?",
+    "text": "Maecenas eget feugiat augue. Nulla faucibus vitae urna sit amet efficitur. Praesent justo mauris, facilisis eu magna et, varius lobortis ex. Nunc ultrices ipsum at tincidunt suscipit. Maecenas id justo at quam faucibus euismod. Proin eu urna blandit, pharetra enim scelerisque, malesuada justo. Sed commodo velit id augue lacinia, quis dignissim urna consectetur. Vestibulum et arcu vitae diam ultricies tempor.",
+    "class": "card_flipped"
+  },
+  "seo1": {
+    "title": "Some boring text, good for SEO",
+    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum. Morbi eget hendrerit purus, in tempor lectus. Curabitur lorem magna, efficitur et molestie ut, rutrum in nisi. Sed lobortis sapien sit amet tempus commodo. Phasellus nec libero laoreet, finibus libero rhoncus, pellentesque elit. Mauris facilisis commodo justo, eget venenatis erat suscipit nec.</p> <p>Maecenas eget feugiat augue. Nulla faucibus vitae urna sit amet efficitur. <strong>Praesent</strong> justo mauris, facilisis eu magna et, varius lobortis ex. Nunc ultrices ipsum at tincidunt suscipit. Maecenas id justo at quam faucibus euismod. Proin eu urna blandit, pharetra enim scelerisque, malesuada justo. Sed commodo velit id augue lacinia, quis dignissim urna consectetur. Vestibulum et arcu vitae diam ultricies tempor. Praesent in posuere ante. Aenean dui mi, imperdiet id placerat quis, <em>fringilla</em> et n eque. Suspendisse porta justo odio, ut aliquet felis volutpat sit amet. Nunc fermentum vel dui ac sodales. Vivamus consectetur tortor at mauris vulputate finibus.</p>",
+    "btnText": "Do something"
+  },
+
+  "seo2": {
+    "title": "Some more boring text,<br /> also good for SEO",
+    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum. Morbi eget hendrerit purus, in tempor lectus. Curabitur lorem magna, efficitur et molestie ut, rutrum in nisi. Sed lobortis sapien sit amet tempus commodo. Phasellus nec libero laoreet, finibus libero rhoncus, pellentesque elit. Mauris facilisis commodo justo, eget venenatis erat suscipit nec.</p>",
+    "btnText": "Do it"
+  },
+
+  "popup1": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum. Morbi eget hendrerit purus, in tempor lectus. Curabitur lorem magna, efficitur et molestie ut, rutrum in nisi. Sed lobortis sapien sit amet tempus commodo. Phasellus nec libero laoreet, finibus libero rhoncus, pellentesque elit. Mauris facilisis commodo justo, eget venenatis erat suscipit nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum. Morbi eget hendrerit purus, in tempor lectus. Curabitur lorem magna, efficitur et molestie ut, rutrum in nisi. Sed lobortis sapien sit amet tempus commodo. Phasellus nec libero laoreet, finibus libero rhoncus, pellentesque elit. Mauris facilisis commodo justo, eget venenatis erat suscipit nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum. Morbi eget hendrerit purus, in tempor lectus. Curabitur lorem magna, efficitur et molestie ut, rutrum in nisi. Sed lobortis sapien sit amet tempus commodo. Phasellus nec libero laoreet, finibus libero rhoncus.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum. Morbi eget hendrerit purus, in tempor lectus. Curabitur lorem magna, efficitur et molestie ut, rutrum in nisi. Sed lobortis sapien sit amet tempus commodo. Phasellus nec libero laoreet, finibus libero rhoncus, pellentesque elit. Mauris facilisis commodo justo, eget venenatis erat suscipit nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum. Morbi eget hendrerit purus, in tempor lectus. Curabitur lorem magna, efficitur et molestie ut, rutrum in nisi. Sed lobortis sapien sit amet tempus commodo. Phasellus nec libero laoreet, finibus libero rhoncus, pellentesque elit. </p>",
+  "popup2": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum. Morbi eget hendrerit purus, in tempor lectus. Curabitur lorem magna, efficitur et molestie ut, rutrum in nisi. Sed lobortis sapien sit amet tempus commodo. Phasellus nec libero laoreet, finibus libero rhoncus, pellentesque elit. Mauris facilisis commodo justo, eget venenatis erat suscipit nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum. Morbi eget hendrerit purus, in tempor lectus. Curabitur lorem magna, efficitur et molestie ut, rutrum in nisi. Sed lobortis sapien sit amet tempus commodo. Phasellus nec libero laoreet, finibus libero rhoncus, pellentesque elit.</p>",
+
+  "colorPrimary": "btn_primary",
+  "colorSecondary": "btn_secondary",
+  "downloadBtns": "Download",
+
+  "featuresTitle": "Our main features",
+  "featureItems": [
+    {
+      "image": {
+        "url": "assets/img/s-logo.png",
+        "altText": "splash logo"
+      },
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum. Morbi eget hendrerit purus, in tempor lectus.",
+      "badgeText": ""
+    },
+
+    {
+      "image": {
+        "url": "assets/img/s-logo.png",
+        "altText": "splash logo"
+      },
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "badgeText": ""
+    },
+    {
+      "image": {
+        "url": "assets/img/s-logo.png",
+        "altText": "splash logo"
+      },
+      "text": "Morbi consectetur aliquam urna.",
+      "badgeText": ""
+    },
+    {
+      "image": {
+        "url": "assets/img/s-logo.png",
+        "altText": "splash logo"
+      },
+      "text": "Morbi consectetur aliquam urna.",
+      "badgeText": ""
+    },
+    {
+      "image": {
+        "url": "assets/img/s-logo.png",
+        "altText": "splash logo"
+      },
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum. Morbi eget hendrerit purus, in tempor lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna.",
+      "badgeText": "NEW"
+    }
+  ],
+
+  "teamTitle": "Our fantastic team",
+  "teamMembers": [
+    {
+      "image": {
+        "url": "assets/img/team1.jpeg",
+        "altText": "male on scooter"
+      },
+      "tmName": "Ion Popescu",
+      "tmOccupation": "the fixer",
+      "tmDescription": "He likes to lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum et ullamcorper ipsum. "
+    },
+    {
+      "image": {
+        "url": "assets/img/team2.jpeg",
+        "altText": "female on scooter"
+      },
+      "tmName": "Andreea Ghica",
+      "tmOccupation": "the colourful",
+      "tmDescription": "She likes to lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum."
+    },
+    {
+      "image": {
+        "url": "assets/img/team1.jpeg",
+        "altText": "male on scooter"
+      },
+      "tmName": "Alexandru Ioanovici Cuza",
+      "tmOccupation": "the colourful",
+      "tmDescription": "He likes to lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum."
+    },
+    {
+      "image": {
+        "url": "assets/img/team1.jpeg",
+        "altText": "male on scooter"
+      },
+      "tmName": "Gruia",
+      "tmOccupation": "the entertainer",
+      "tmDescription": "He likes to entertain."
+    },
+    {
+      "image": {
+        "url": "assets/img/team2.jpeg",
+        "altText": "female on scooter"
+      },
+      "tmName": "Roxana",
+      "tmOccupation": "HR",
+      "tmDescription": "She likes to lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum et ullamcorper ipsum."
+    },
+    {
+      "image": {
+        "url": "assets/img/team2.jpeg",
+        "altText": "female on scooter"
+      },
+      "tmName": "Mihaela Acatrinei",
+      "tmOccupation": "the coffee addict",
+      "tmDescription": ""
+    },
+    {
+      "image": {
+        "url": "assets/img/team1.jpeg",
+        "altText": "male on scooter"
+      },
+      "tmName": "Alexandru Ioanovici Cuza",
+      "tmOccupation": "the IT guy",
+      "tmDescription": "He likes to kick the keyboard."
+    }
+  ],
+
+  "testimonials": {
+    "title": "Don’t trust us,<br/>trust them",
+    "testimonialItems": [
+      {
+        "indicator": 0,
+        "image1": {
+          "url": "assets/img/right-quote-sign.png",
+          "altText": "quote sign"
+        },
+
+        "image2": {
+          "url": "assets/img/right-quote-sign.png",
+          "altText": "quote sign"
+        },
+
+        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum. Morbi eget hendrerit purus, in tempor lectus. Curabitur lorem magna, efficitur et molestie ut, rutrum in nisi. Sed lobortis sapien sit amet tempus commodo. Phasellus nec libero laoreet, finibus libero rhoncus, pellentesque elit. Mauris facilisis commodo justo, eget venenatis erat suscipit nec.</p><p>Ion Luca Caragiale</p>"
+      },
+
+      {
+        "indicator": 0,
+        "image1": {
+          "url": "assets/img/right-quote-sign.png",
+          "altText": "quote sign"
+        },
+
+        "image2": {
+          "url": "assets/img/right-quote-sign.png",
+          "altText": "quote sign"
+        },
+
+        "text": "<p>Lorem ipsum  justo, eget venenatis erat suscipit nec.</p><p>Lucian Blaga</p>"
+      },
+
+      {
+        "indicator": 1,
+        "image1": {
+          "url": "assets/img/right-quote-sign.png",
+          "altText": "quote sign"
+        },
+
+        "image2": {
+          "url": "assets/img/right-quote-sign.png",
+          "altText": "quote sign"
+        },
+
+        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum. Morbi eget hendrerit purus, in tempor lectus. Curabitur lorem magna, efficitur et molestie ut, rutrum in nisi. Sed lobortis sapien sit amet tempus commodo. Phasellus nec libero laoreet, finibus libero rhoncus, pellentesque elit.</p><p>Alexandru Ioan Cuza</p>"
+      },
+
+      {
+        "indicator": 2,
+        "image1": {
+          "url": "assets/img/right-quote-sign.png",
+          "altText": "quote sign"
+        },
+
+        "image2": {
+          "url": "assets/img/right-quote-sign.png",
+          "altText": "quote sign"
+        },
+
+        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum. Morbi eget hendrerit purus, in tempor lectus. Curabitur lorem magna.</p><p>The coffee addict</p>"
+      }
+    ]
+  },
+
+  "faq": {
+    "title": "FAQ",
+    "faqItems": [
+      {
+        "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+        "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum. Morbi eget hendrerit purus, in tempor lectus. Curabitur lorem magna, efficitur et molestie ut, rutrum in nisi. Sed lobortis sapien sit amet tempus commodo. Phasellus nec libero laoreet, finibus libero rhoncus, pellentesque elit. Mauris facilisis commodo justo, eget venenatis erat suscipit nec.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum. Morbi eget hendrerit purus, in tempor lectus. Curabitur lorem magna, efficitur et molestie ut, rutrum in nisi. Sed lobortis sapien sit amet tempus commodo. Phasellus nec libero laoreet, finibus libero rhoncus, pellentesque elit. Mauris facilisis commodo justo, eget venenatis erat suscipit nec.</p>"
+      },
+      {
+        "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+        "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum. Morbi eget hendrerit purus, in tempor lectus. Curabitur lorem magna, efficitur et molestie ut, rutrum in nisi. Sed lobortis sapien sit amet tempus commodo. Phasellus nec libero laoreet, finibus libero rhoncus, pellentesque elit. Mauris facilisis commodo justo, eget venenatis erat suscipit nec.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum. Morbi eget hendrerit purus, in tempor lectus. Curabitur lorem magna, efficitur et molestie ut, rutrum in nisi. Sed lobortis sapien sit amet tempus commodo. Phasellus nec libero laoreet, finibus libero rhoncus, pellentesque elit. Mauris facilisis commodo justo, eget venenatis erat suscipit nec.</p>"
+      },
+      {
+        "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+        "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum. Morbi eget hendrerit purus, in tempor lectus. Curabitur lorem magna, efficitur et molestie ut, rutrum in nisi. Sed lobortis sapien sit amet tempus commodo. Phasellus nec libero laoreet, finibus libero rhoncus, pellentesque elit. Mauris facilisis commodo justo, eget venenatis erat suscipit nec.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum. Morbi eget hendrerit purus, in tempor lectus. Curabitur lorem magna, efficitur et molestie ut, rutrum in nisi. Sed lobortis sapien sit amet tempus commodo. Phasellus nec libero laoreet, finibus libero rhoncus, pellentesque elit. Mauris facilisis commodo justo, eget venenatis erat suscipit nec.</p>"
+      },
+      {
+        "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing elit?",
+        "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum. Morbi eget hendrerit purus, in tempor lectus. Curabitur lorem magna, efficitur et molestie ut, rutrum in nisi. Sed lobortis sapien sit amet tempus commodo. Phasellus nec libero laoreet, finibus libero rhoncus, pellentesque elit. Mauris facilisis commodo justo, eget venenatis erat suscipit nec.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum. Morbi eget hendrerit purus, in tempor lectus. Curabitur lorem magna, efficitur et molestie ut, rutrum in nisi. Sed lobortis sapien sit amet tempus commodo. Phasellus nec libero laoreet, finibus libero rhoncus, pellentesque elit. Mauris facilisis commodo justo, eget venenatis erat suscipit nec.</p>"
+      },
+      {
+        "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing elit?",
+        "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum. Morbi eget hendrerit purus, in tempor lectus. Curabitur lorem magna, efficitur et molestie ut, rutrum in nisi. Sed lobortis sapien sit amet tempus commodo. Phasellus nec libero laoreet, finibus libero rhoncus, pellentesque elit. Mauris facilisis commodo justo, eget venenatis erat suscipit nec.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Pellentesque et ullamcorper ipsum. Morbi eget hendrerit purus, in tempor lectus. Curabitur lorem magna, efficitur et molestie ut, rutrum in nisi. Sed lobortis sapien sit amet tempus commodo. Phasellus nec libero laoreet, finibus libero rhoncus, pellentesque elit. Mauris facilisis commodo justo, eget venenatis erat suscipit nec.</p>"
+      }
+    ]
+  },
+  "footer": {
+    "infoItem1": {
+      "title": "Some headlines",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur aliquam urna. Lorem ipsum dolor sit amet, adipiscing elit. Morbi consectetur aliquam urna."
+    },
+    "infoItem2": {
+      "title": "Other links",
+      "footerItems": ["Coffee", "Tea", "Water", "Juice", "Beer", "Wine"]
+    },
+    "infoItem3": {
+      "url": "assets/img/logo.png",
+      "altText": "splash logo"
+    },
+    "infoItem4": {
+      "copyright": "Copyright 2022 Codezilla"
+    }
+  },
+  "form": {
+    "title": "What about you?",
+    "titleMessage": "Thank you, Monkey",
+    "imgMessage": {
+      "url": "assets/img/monkey.jpeg",
+      "altText": "monkey"
+    },
+    "input1": {
+      "title": "Full name",
+      "type": "text",
+      "id": "name",
+      "name": "name",
+      "placeholder": "Type in your name"
+    },
+    "input2": {
+      "title": "Preffered fruit",
+      "type": "text",
+      "id": "fruit",
+      "name": "fruit",
+      "placeholder": "Type in your preferred fruit"
+    },
+    "textareaTitle": "How can we help you?"
+  }
+}

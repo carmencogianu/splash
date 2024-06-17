@@ -1,0 +1,66 @@
+// sizes
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+$grid-breakpoints: (
+  xs: 320px,
+  sm: 480px,
+  md: 768px,
+  lg: 990px,
+  xl: 1500px,
+) !default;
+// fonts
+/* Button color */
+$btn-primary: #1abc9c;
+$btn-secondary: #2980b9;
+/* Text color */
+$white: #fff;
+$black: #000;
+$orange: #d35400;
+$green: #27ae60;
+$blue: #2980b9;
+$light-blue: #d2edff;
+/* Background color */
+$gray: #ecf0f1;
+$dark-blue: #2c3e50;
+
+// FONTS
+$primary-font: "Open Sans", sans-serif;
+$secondary-font: "Roboto", sans-serif;
+
+// SIZES
+$container: 1200px;
+$container-laptop: 1000px;
+$container-tablet: 750px;
+$laptop-max: 1367px;
+$tablet-max: 1024px;
+$phone-max: 768px;
+$phone-small-max: 320px;
+
+$padding-nav-d: 20px;
+$padding-nav-m: 15px;
+
+:root {
+  /* TEXT */
+  /* Font size */
+  --p-big: 20px;
+
+  /* MARGINS, PADDINGS & BORDERS */
+  --margin-medium: 20px;
+  --margin-big: 50px;
+  --padding-big: 50px;
+  --padding-btn: 8px 24px 7px;
+  --border-radius-btn: 5px;
+
+  @media (max-width: $tablet-max) {
+    --margin-medium: 20px;
+    --margin-big: 40px;
+    --padding-big: 30px;
+  }
+
+  @media (max-width: $phone-max) {
+    --margin-medium: 20px;
+    --margin-big: 30px;
+    --padding-big: 20px;
+    --padding-btn: 9px 24px;
+  }
+}

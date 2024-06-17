@@ -1,0 +1,66 @@
+@import "../../styles/utils.scss";
+
+.form {
+  text-align: center;
+  z-index: -1000;
+  &__container {
+    max-width: 558px;
+    border: 1px solid $blue;
+    margin: 0 auto;
+    padding: 40px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: $phone-max) {
+      max-width: 738px;
+      padding: 20px 20px 20px 20px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 40px;
+
+    @media (max-width: $phone-max) {
+      margin-bottom: 60px;
+    }
+  }
+
+  &__field {
+    text-align: left;
+
+    label {
+      display: inline-block;
+      margin-bottom: 15px;
+    }
+
+    input,
+    textarea {
+      color: $black;
+      display: block;
+      width: 100%;
+      margin-bottom: var(--margin-medium);
+      outline: 0;
+      border: 1px solid $green;
+      border-radius: 5px;
+
+      &:focus {
+        border-color: $blue;
+      }
+    }
+
+    textarea {
+      font-family: $primary-font;
+      font-size: 18px;
+      padding: var(--padding-btn);
+    }
+  }
+
+  :global(.btn) {
+    display: inline-block;
+    align-self: flex-end;
+  }
+
+  &__message {
+    display: none;
+  }
+}

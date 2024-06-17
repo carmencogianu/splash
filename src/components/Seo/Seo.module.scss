@@ -1,0 +1,19 @@
+@import "../../styles/utils.scss";
+
+.seo {
+  :global(.container) {
+    background-color: $gray;
+    box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.1);
+    padding: var(--padding-big);
+    text-align: center;
+  }
+
+  &__text_box {
+    p:first-of-type {
+      margin-bottom: 14px;
+    }
+    p:last-of-type {
+      margin-bottom: var(--margin-medium);
+    }
+  }
+}

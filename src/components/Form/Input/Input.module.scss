@@ -1,0 +1,27 @@
+@import "../../../styles/utils.scss";
+
+.form__field {
+  text-align: left;
+
+  label {
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+
+  input,
+  textarea {
+    font-family: $primary-font;
+    letter-spacing: normal;
+    color: $black;
+    display: block;
+    width: 100%;
+    margin-bottom: var(--margin-medium);
+    outline: 0;
+    border: 1px solid $green;
+    border-radius: 5px;
+
+    &:focus {
+      border-color: $blue;
+    }
+  }
+}

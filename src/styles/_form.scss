@@ -1,0 +1,16 @@
+// global form elements style
+input[disabled] {
+  opacity: 0.2;
+}
+form {
+  // label {
+    
+  // }
+  input[type=text], input[type=email], input[type=number], input[type=tel], textarea, select {
+  text-transform: lowercase;
+  }
+  textarea {
+    padding: 10px;
+  }
+
+}

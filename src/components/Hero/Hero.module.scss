@@ -1,0 +1,37 @@
+@import "../../styles/utils.scss";
+
+.hero {
+  &__carousel {
+    position: relative;
+    height: 850px;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: var(--margin-big);
+    @media (max-width: $phone-max) {
+      margin-top: 70px;
+      height: 340px;
+      text-align: left;
+    }
+    .carousel__indicators {
+      width: 100%;
+      padding: 15px 0;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      text-align: center;
+      .carousel__btn {
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        background: #c4c4c4;
+        border-radius: 50%;
+        margin: 0;
+        margin-right: 15px;
+        cursor: pointer;
+      }
+      .carousel__btn_selected {
+        background: #27ae60;
+      }
+    }
+  }
+}

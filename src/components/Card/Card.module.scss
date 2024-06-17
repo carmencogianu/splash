@@ -1,0 +1,53 @@
+@import "../../styles/utils.scss";
+
+.card {
+  :global(.container) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+
+    @media (max-width: $phone-max) {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+
+  &__img {
+    height: auto;
+    max-width: 575px;
+
+    @media (max-width: $tablet-max) {
+      max-width: 50%;
+    }
+
+    @media (max-width: $phone-max) {
+      max-width: 100%;
+    }
+  }
+
+  &__text_box {
+    max-width: 575px;
+
+    @media (max-width: $tablet-max) {
+      max-width: 50%;
+    }
+
+    @media (max-width: $phone-max) {
+      max-width: 100%;
+    }
+  }
+
+  &_flipped {
+    transform: scaleX(-1);
+
+    .card__text_box {
+      transform: scaleX(-1);
+      text-align: right;
+
+      @media (max-width: $phone-max) {
+        text-align: left;
+      }
+    }
+  }
+}

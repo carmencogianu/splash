@@ -1,0 +1,24 @@
+@import "../../styles/utils.scss";
+
+.faq {
+  background-color: $gray;
+  padding: 50px 0;
+  margin-bottom: var(--margin-big);
+  text-align: center;
+
+  :global(.container) {
+    margin: 0 auto;
+  }
+
+  &__title {
+    margin-bottom: 50px;
+  }
+
+  &__items {
+    margin: 0 auto;
+
+    @media (max-width: $tablet-max) {
+      margin: 0 15px;
+    }
+  }
+}

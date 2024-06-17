@@ -1,0 +1,49 @@
+// global buttons style
+a.btn,
+button.btn {
+  &,
+  &:link,
+  &:visited {
+    @include btn;
+  }
+  font-family: $primary-font;
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  &:active {
+    transform: translateY(-0.5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.btn_primary {
+  font-family: $primary-font;
+  background-color: $btn-primary;
+
+  &:hover {
+    background-color: darken($btn-primary, 20%);
+  }
+}
+
+.btn_secondary {
+  font-family: $primary-font;
+  background-color: $btn-secondary;
+
+  &:hover {
+    background-color: darken($btn-secondary, 20%);
+  }
+}
+
+input {
+  @include btn;
+}
+
+@media (max-width: 768px) {
+  .btn {
+    font-size: 16px;
+    padding: var(--padding-btn);
+  }
+}

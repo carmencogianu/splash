@@ -1,0 +1,57 @@
+@import "utils";
+.slick-slider,
+.slick-slide,
+.slick-list,
+.slick-track,
+.tcp_item,
+.press_item,
+.partners_item,
+.statistics_item {
+  &:hover,
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+.slick-arrow {
+  z-index: 9;
+}
+.clearfix {
+  clear: both;
+}
+a,
+input,
+textarea,
+button {
+  @include animated();
+  &:focus {
+    outline: none;
+  }
+}
+
+a, input, textarea, button {
+  @include animated();
+}
+.container {
+  box-sizing: border-box;
+  max-width: $container;
+  margin: 0 auto;
+  margin-bottom: var(--margin-big);
+  // padding: 0 15px;
+  // &::after {
+  //   content: "";
+  //   clear: both;
+  //   display: table;
+  // }
+  @media(max-width: $laptop-max) {
+    max-width: $container-laptop;
+  }
+  @media(max-width: $tablet-max) {
+    max-width: $container-tablet;
+  }
+  @media(max-width: $phone-max) {
+    max-width: 100%;
+    margin: 0 15px;
+    margin-bottom: var(--margin-big);
+  }
+}

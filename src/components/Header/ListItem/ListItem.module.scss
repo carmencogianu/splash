@@ -1,0 +1,31 @@
+@import "../../../styles/utils.scss";
+.navigation {
+  .nav__container {
+    .menu__container {
+      .menu__list {
+        font-family: "Roboto";
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        margin-right: 30px;
+        margin-bottom: 0;
+
+        @media (max-width: $phone-max) {
+          flex-direction: column;
+          gap: 15px;
+          margin-right: 0;
+          text-align: right;
+          margin-bottom: 25px;
+        }
+
+        .menu__item {
+          font-size: 18px;
+
+          .menu__link {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

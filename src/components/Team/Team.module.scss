@@ -1,0 +1,20 @@
+@import "../../styles/utils.scss";
+
+.team {
+  text-align: center;
+
+  &__title {
+    margin-bottom: 50px;
+  }
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+
+    @media (max-width: $phone-max) {
+      gap: 30px;
+    }
+  }
+}
